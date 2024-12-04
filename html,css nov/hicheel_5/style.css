@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Phetsarath:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.haih {
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 35px;
+  padding: 15px;
+}
+.check_class {
+  display: none;
+}
+.search_button {
+  display: none;
+}
+
+#check:checked ~ * .search_button {
+  display: flex;
+}
+i {
+  cursor: pointer;
+}
+/* .header {
+  background-color: green;
+  color: white;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  font: size 20px;
+  padding: 15px;
+  color: white;
+  display: inline-block;
+}
+.header ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+}
+ul li:hover {
+  background-color: #444;
+}
+.header .dropdown_hover {
+  display: none;
+}
+.header .dropdown_menu:hover + .dropdown_hover {
+  display: flex;
+} */
+
+/* .container {
+  width: 40%;
+  height: 550px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .item {
+  width: 300px;
+  height: 300px;
+  background-color: wheat;
+  padding: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 35px;
+  word-spacing: 35px;
+  text-shadow: 5px 5px 3px purple;
+  font-family: "Jaro", sans-serif;
+}
+
+.container .item i {
+  color: red;
+  font-size: 35px;
+} */

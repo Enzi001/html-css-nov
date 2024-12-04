@@ -1,0 +1,41 @@
+.main {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  border: black 1px solid;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.main span .item {
+  background-color: orange;
+  font-weight: 100;
+  display: none;
+}
+
+.main .item:hover {
+  background-color: bisque;
+}
+.main .hi:hover + span .bye {
+  display: flex;
+}
+/* .main span .item:hover {
+  background-color: skyblue;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  transition: 0.8s;
+} */
