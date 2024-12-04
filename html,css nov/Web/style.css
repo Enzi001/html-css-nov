@@ -15,6 +15,8 @@
   display: flex;
   z-index: 1;
   position: relative;
+  position: fixed;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0);
 }
 .container a {
   text-decoration: none;
@@ -85,12 +87,65 @@
 .background_img {
   width: 100%;
   height: 80vh;
-  position: absolute;
-  top: 0;
 }
 
 .background_img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  position: absolute;
+  top: 0;
+}
+#main {
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#main .main_conn {
+  display: flex;
+  justify-content: space-between;
+}
+#main .main_text {
+  font-size: 45px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+#main .main_img {
+  width: 49%;
+  height: 100%;
+  position: relative;
+}
+#main .main_img img {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main_item {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+}
+#main .main_button {
+  background-color: white;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+#main .main_button i {
+  margin-left: 5px;
+}
+#main a {
+  text-decoration: none;
+  color: black;
 }
